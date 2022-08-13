@@ -1,0 +1,427 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap);
+
+*,
+navbar ul {
+    list-style-type: none
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none
+}
+
+body {
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    padding: 40px 70px 0;
+    background: rgb(0 0 0/1.5%)
+}
+
+navbar ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr)
+}
+
+navbar {
+    display: grid;
+    grid-template-columns: 1.5fr 5fr;
+    align-items: center
+}
+
+.main-menu li:not(:first-child) {
+    color: #898888
+}
+
+.contact-us,
+.main-menu li {
+    font-size: 18px
+}
+
+.main-menu li {
+    cursor: pointer;
+}
+
+.contact-us {
+    justify-self: flex-end;
+    border: 1px solid #24a7ff;
+    padding: 16px 30px;
+    border-radius: 10px
+}
+
+.contact-us a {
+    color: #24a7ff;
+    font-weight: 500
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700
+}
+
+.border-wrap {
+    display: grid;
+    grid-template-columns: 3.3fr 1fr;
+    align-items: center
+}
+
+.features,
+.hero,
+.plans_pricing,
+.registration,
+.service-scenarios,
+.support,
+.testimonials {
+    display: flex;
+    height: 80vh;
+    margin-top: 100px
+}
+
+.service-scenarios {
+    height: auto
+}
+
+.sevices {
+    margin-bottom: 80px
+}
+
+.features>*,
+.hero>*,
+.service-scenarios>*,
+.support>* {
+    flex: 0 0 calc(50% - 30px)
+}
+
+.componets .place-holder,
+.features .right-hero,
+.hero .right-hero,
+.social-media .links>* {
+    background: url(../Hosting_Landing_Page.svg)no-repeat
+}
+
+.hero .right-hero {
+    content: "";
+    height: 100%;
+    background-position: 0-38px;
+    position: relative;
+    right: -5%
+}
+
+.hero-heading {
+    font-size: 50px
+}
+
+.hero-parah {
+    margin: 40px 0;
+    line-height: 1.5
+}
+
+.packages {
+    display: inline-block;
+    background-image: linear-gradient(#538ffb, #3bb0ff);
+    padding: 16px 30px;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+    font-weight: 700
+}
+
+.features {
+    flex-direction: row-reverse
+}
+
+.features .right-hero,
+.support .right-hero {
+    content: "";
+    height: 100%;
+    background-position: 100% -90px;
+    position: relative;
+    right: 0
+}
+
+.support .right-hero {
+    background: url(../technical_support_illustration-01.svg)no-repeat
+}
+
+.heading {
+    font-size: 50px;
+    margin: 70px 0 50px;
+    text-align: center
+}
+
+.componets,
+.plans_pricing .packs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 6%
+}
+
+.testimonials .cutomers {
+    display: grid;
+    grid-gap: 6%
+}
+
+.componets>div {
+    padding: 30px;
+    background: #fff
+}
+
+.componets h2 {
+    margin-bottom: 10px
+}
+
+.componets .place-holder {
+    content: "";
+    width: 63px;
+    height: 64px;
+    margin-bottom: 16px
+}
+
+.componet-unlimit-hosting .place-holder {
+    background-position: -510px -768px
+}
+
+.componet-cloud-hosting .place-holder {
+    background-position: -631px -770px
+}
+
+.componet-wp-hosting .place-holder {
+    background-position: -753px -767px
+}
+
+.componet-vps .place-holder {
+    background-position: -511px -859px
+}
+
+.componet-domain .place-holder {
+    background-position: -631px -858px
+}
+
+.componet-website-builder .place-holder {
+    background-position: -753px -859px
+}
+
+.plans_pricing {
+    background-image: linear-gradient(#538efbcc, #5b54fa);
+    flex-direction: column;
+    text-align: center;
+    margin-right: -70px;
+    margin-left: -70px;
+    height: 100%;
+    padding-bottom: 70px
+}
+
+.plans_pricing h3 {
+    font-size: 30px;
+    margin-bottom: 1rem
+}
+
+.plans_pricing p:not(.pack_name p),
+.plans_pricing span {
+    color: #798196
+}
+
+.plans_pricing .packs {
+    column-gap: 24px;
+    margin-right: 70px;
+    margin-left: 70px
+}
+
+.plans_pricing h2 {
+    color: #fff
+}
+
+.plans_pricing .packs>* {
+    background: #fff;
+    border-radius: 10px
+}
+
+.popular-pack .pack_name {
+    background-color: #000
+}
+
+.pack_features li::before {
+    background: url(../check-mark.png)no-repeat;
+    content: "";
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    background-size: 100%;
+    margin-right: 12px
+}
+
+.pack_features li {
+    padding-bottom: 1rem
+}
+
+.pack_features,
+.pack_name {
+    padding: 30px
+}
+
+.plans_pricing .pack_features,
+.plans_pricing .pack_name {
+    text-align: left
+}
+
+.plans_pricing .popular-pack .pack_name {
+    background-color: #000;
+    color: #fff;
+    border-radius: 1opx
+}
+
+.pack_cta a,
+.register-here a {
+    border: 1px solid #24a7ff;
+    padding: 12px 30px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 30px auto;
+    color: #24a7ff;
+    display: block
+}
+
+.register-here a {
+    border-color: #fff;
+    color: #fff
+}
+
+.popular-pack .pack_cta a {
+    background-image: linear-gradient(#538ffb, #3bb0ff);
+    color: #fff
+}
+
+.pack_price {
+    margin-top: 60px
+}
+
+.testimonials {
+    flex-direction: column
+}
+
+.testimonials .captions {
+    width: 52%;
+    margin: 0 auto 50px;
+    text-align: center
+}
+
+.testimonials .cutomers {
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 12px
+}
+
+.testimonials .cutomer {
+    padding: 30px;
+    background: #fff;
+    filter: drop-shadow(0 0 .1rem #ccc);
+    display: flex;
+    flex-direction: column
+}
+
+.testimonials .cutomer.active,
+.testimonials .cutomer:hover {
+    filter: drop-shadow(0 0 .3rem #ccc);
+    transition: all 1s ease
+}
+
+.cutomer p {
+    margin-bottom: 2rem
+}
+
+.avatar {
+    background: #ccc
+}
+
+.avatar,
+.avatar img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 20px
+}
+
+.author {
+    margin-top: auto;
+    display: flex;
+    align-items: flex-end
+}
+
+.author .name {
+    font-weight: 700
+}
+
+.testimonials {
+    height: unset
+}
+
+.registration {
+    height: 300px;
+    background-size: auto auto;
+    background-color: #0681ef;
+    background-image: repeating-linear-gradient(161deg, transparent, transparent 84px, rgba(255, 255, 255, .14) 184px, rgba(255, 255, 255, .14) 78px);
+    margin-right: -70px;
+    margin-left: -70px
+}
+
+.registration .wrapper {
+    margin: 50px 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #fff
+}
+
+.registration .heading {
+    margin: unset;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: left
+}
+
+.registration .register-here {
+    align-self: center;
+    justify-self: flex-end
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr 1fr;
+    column-gap: 80px;
+    margin: 150px 0 70px
+}
+
+.menu-sections {
+    display: flex;
+    justify-content: space-between
+}
+
+footer .main-menu li,
+footer p {
+    color: #898888;
+    font-size: 14px;
+    padding-top: 1rem
+}
+
+.social-media .links>* {
+    width: 36px;
+    height: 35px;
+    display: inline-block;
+    margin-top: 1rem
+}
+
+.links #fb {
+    background-position: -269px -842px
+}
+
+.links #insta {
+    background-position: -309px -841px
+}
+
+.links #y-tube {
+    background-position: -349px -842px
+}
+
+.links #linkedIn {
+    background-position: -389px -842px
+}
