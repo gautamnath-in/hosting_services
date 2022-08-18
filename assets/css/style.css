@@ -425,3 +425,160 @@ footer p {
 .links #linkedIn {
     background-position: -389px -842px
 }
+
+@media (max-width:991px) {
+    body {
+        padding: 20px 10px 0;
+    }
+
+    navbar,
+    .border-wrap,
+    .main-menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px
+    }
+
+    .hero-heading {
+        font-size: 20px
+    }
+
+    .features,
+    .hero,
+    .plans_pricing,
+    .registration,
+    .service-scenarios,
+    .support,
+    .testimonials {
+        /* margin-top: 30px; */
+        height: 350px;
+    }
+
+    .hero-parah {
+        margin: 16px 0;
+        font-size: 14px;
+    }
+
+    .packages {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    .hero,
+    .features,
+    .support {
+        flex-direction: column-reverse;
+    }
+
+    .service-scenarios {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .right-hero {
+        height: 100%;
+        background-position: 0 -38px;
+        right: auto;
+        max-height: 150px;
+        margin-bottom: 10px
+    }
+
+    .features>*,
+    .hero>*,
+    .support>* {
+        flex: 1;
+
+    }
+
+    .service-scenarios>* {
+        flex: 0 1;
+    }
+
+    .componets,
+    .plans_pricing .packs,
+    .packs {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .packs {
+        column-gap: unset;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .plans_pricing {
+        height: auto;
+        margin-top: 0;
+    }
+
+    .plans_pricing .packs {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .plans_pricing h2 {
+        font-size: 22px;
+        margin: 10px 0 20px;
+    }
+
+    .plans_pricing {
+        margin-right: -0px;
+        margin-left: 0px;
+        padding-bottom: 20px;
+    }
+
+    .heading {
+        font-size: 22px;
+        margin: 10px 0 20px;
+        text-align: center;
+    }
+
+    .testimonials .captions {
+        width: auto;
+        margin: 0 auto 10px;
+    }
+
+    .testimonials,
+    .registration {
+        height: auto;
+    }
+
+    .registration .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: none;
+        margin: 10px 0px;
+    }
+
+    .registration {
+        margin: 20px 0 0;
+        padding: 10px;
+    }
+
+    .testimonials .cutomers {
+        grid-gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: noner;
+        column-gap: 10px;
+        margin: 20px 0 0px;
+        align-items: baseline;
+    }
+
+    .main-menu {
+        width: calc(100% / 3);
+    }
+
+    .menu-sections {
+        margin: 30px 0;
+    }
+}
