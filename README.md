@@ -9,4 +9,4 @@ In addition to this <a href="https://hosting-servicex.netlify.app/">Hosting Serv
 
 ![Design View](https://github.com/gautamnath-in/hosting_services/blob/main/assets/Design-hosting.png)
 
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fhosting-servicex.netlify.app%2F)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fpaytm-cloned.netlify.app%2F)
+[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fhosting-servicex.netlify.app%2F)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fhosting-servicex.netlify.app%2F)
